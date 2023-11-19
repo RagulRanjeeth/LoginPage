@@ -1,0 +1,120 @@
+p.login{  color: rgba(0, 0, 0, 0.952);
+  padding:5px 150px 5px 150px;
+  font-weight: bold;
+  font-size:2vw;
+  font-family:Poppins;
+}
+
+.second{
+  height:100%;
+  width:100%;
+  text-size-adjust: 10px;
+  font-family:Poppins;
+  height:400px;
+  width:300px;
+  overflow:auto;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 16px;
+  padding:10px 120px 10px 20px;
+  text-align: center;
+  margin:10px 40px 0px 985px;
+  position:absolute;
+  top:140px;
+  right:70px;
+  background: rgba(255, 255, 255, 0.31);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+i{
+padding:20px 200px 10px 10px ;
+text-align: right;
+}
+
+input{
+height:30px;
+width:350px;
+padding:0px 15px 0px 5px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+label{
+  font-family:Poppins;
+}
+
+#button{
+  height:40px;
+  width:70px;
+  font-weight:bold;
+  position:relative;
+  margin:50px 10px 10px 150px;
+  left:70px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 9px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+#button1{
+  height:40px;
+  width:70px;
+  font-weight:bold;
+  position:absolute;
+  margin:50px 400px 10px 10px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 9px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+#button:hover ,#button1:hover{
+  background-color:lightgreen;
+}
+
+#button:active {
+  background-color: lightcyan;
+  box-shadow: 0 5px lightgreen;
+  transform: translateY(4px);
+}
+
+.first{
+  background-image:linear-gradient(to rigtht,#0C356A,#0174BE);
+  margin-top:150px;
+   margin-bottom:0px;  
+  margin-right:450px;                         
+}
+.header1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-left:900px;
+  font-size:x-large;
+  font-family:Poppins;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.welcome{
+  font-family:Poppins;
+  font-size: 4vw;
+  margin:200px 400px 0px 70px;
+  z-index:90;
+
+}
